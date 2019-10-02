@@ -29,7 +29,7 @@ underscore.push_back('_');}
 cout << underscore << endl;
 
 //MAIN WHILE
-while(wrong<12){
+while(wrong<11){
 cin >> guess;
 
 //IF GUESS ISNT LETTER
@@ -118,13 +118,7 @@ cout << "I -|-" << endl;
 cout << "I" << endl;
 cout << "I" << endl;
 }
-else if(wrong==11){
-cout << "I===" << endl;
-cout << "I  O" << endl;
-cout << "I -|-" << endl;
-cout << "I /"  << endl;
-cout << "I" << endl;
-}
+
 else if(wrong==12){
 cout << "I===" << endl;
 cout << "I  O" << endl;
